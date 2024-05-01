@@ -1,9 +1,12 @@
 .grid-content{
     display: grid;
+    /* justify-content: space-between; */
+    align-content: center;
     grid-template-columns: auto auto auto;
     background: red;
     padding: 15px;
     grid-gap: 20px;
+    height: 400px;
 
 }
 .gird-item{
@@ -12,11 +15,12 @@
     color: white;
     text-align: center;
     padding: 20px;
+    
 }
- .item1{
+ /* .item1{
     grid-column-start: 1;
     grid-column-end: 3;
- }
+ } */
 /* .item1{
     grid-row-start: 1;
     grid-row-end: 4;
