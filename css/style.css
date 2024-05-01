@@ -4,6 +4,7 @@
     background: red;
     padding: 15px;
     grid-gap: 20px;
+
 }
 .gird-item{
     border: 1px solid white;
@@ -12,3 +13,12 @@
     text-align: center;
     padding: 20px;
 }
+ .item1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+ }
+/* .item1{
+    grid-row-start: 1;
+    grid-row-end: 4;
+
+} */
