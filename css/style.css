@@ -1,0 +1,14 @@
+.grid-content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background: red;
+    padding: 15px;
+    grid-gap: 20px;
+}
+.gird-item{
+    border: 1px solid white;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
